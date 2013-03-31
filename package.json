@@ -1,0 +1,18 @@
+{
+  "name": "anglicize",
+  "version": "0.0.0",
+  "description": "Anglicize the special characters in given text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "repository": {
+    "url": "git@github.com:azer\/anglicize.git",
+    "type": "git"
+  },
+  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
