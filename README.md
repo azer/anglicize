@@ -1,6 +1,6 @@
 ## anglicize
 
-Anglicize the special characters.
+Anglicize special characters.
 
 ### Install
 
