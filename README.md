@@ -11,8 +11,6 @@ $ npm install anglicize
 ### Usage
 
 ```bash
-text = 'ÂÇİĞÖŞÜÑ âçığöşüñ'
-
-anglicize(text)
+anglicize('ÂÇİĞÖŞÜÑ âçığöşüñ')
 // => ACIGOSUN acigosun
 ```
