@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var anglicize = require('../'),
     fs = require('fs'),
     input = fs.readFileSync(process.argv[1]),
