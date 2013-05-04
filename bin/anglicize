@@ -5,4 +5,4 @@ var anglicize = require('../'),
     input = fs.readFileSync(process.argv[1]),
     output = process.argv[2];
 
-fs.writeFileSync(output, anglicize(input));
+fs.writeFileSync(output, anglicize(input.toString()));
