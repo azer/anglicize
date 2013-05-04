@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Anglicize the special characters in given text.",
   "main": "index.js",
+  "bin": {
+    "anglicize": "./bin/anglicize"
+  },
   "scripts": {
     "test": "fox"
   },
