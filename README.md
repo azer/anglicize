@@ -1,6 +1,6 @@
 ## anglicize
 
-Anglicize special characters.
+Anglicizes special characters. See `lib/dict.js` to see supported languages.
 
 ### Install
 
