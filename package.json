@@ -10,7 +10,7 @@
     "test": "fox"
   },
   "devDependencies": {
-    "fox": "*"
+    "prova": "^2.1.2"
   },
   "repository": {
     "url": "git@github.com:azer/anglicize.git",

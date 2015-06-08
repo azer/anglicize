@@ -1,10 +1,11 @@
+var test = require('prova');
 var anglicize = require("./");
 
-it('returns anglicized text', function(){
+test('returns anglicized text', function (t) {
+  t.plan(1);
 
   var input = 'foo ÂÇİĞÖŞÜÑ bar âçığöşüñ qux',
       output = 'foo ACIGOSUN bar acigosun qux';
 
-  expect(anglicize(input)).to.equal(output);
-
+  t.equal(anglicize(input), output);
 });
